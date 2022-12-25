@@ -1,0 +1,328 @@
+@font-face {
+    font-family: "Athene";
+    src: url(../fonts/Athene.otf);
+    
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+    background-color: #EFE8D7;
+}
+
+.headline {
+    display: flex;
+    justify-content: space-between;
+    color: #042A5A;
+    padding: 5px 90px 10px 90px;
+    border-bottom: 1px solid #042A5A;
+    font-size: 1rem;
+    position: fixed; /* Make it stick/fixed */
+    top: 0px; /* Hide the navbar 50 px outside of the top view */
+    width: 100%; /* Full width */
+  
+}
+
+.sytle_temporary {
+    border-bottom: 1px solid #042A5A;
+}
+
+.temporary_Folio {
+    font-size: 2.8rem;
+    text-align: center;
+    font-family: "Athene";
+    color: #042A5A;
+    border-bottom:1px solid #042A5A;
+    margin-inline: 25vw;
+    padding-top: 90px;
+}
+
+header section h1 span {
+    text-decoration-line: line-through;
+    text-decoration-thickness: 0.1rem;
+    color: #EFE8D7;
+    text-decoration-color: #042A5A;
+}
+
+.header_image {
+display: flex;
+justify-content: center;
+padding: 25px 50px 80px 50px;
+flex-direction: column;
+align-items: center;
+color: #042A5A;
+}
+
+.image_style {
+    
+    max-width: 250px;
+}
+
+
+.positionP3 {
+    margin: 20px 45px 10px 0px;
+    
+}
+
+header p span{
+    color: #042A5A;
+    font-size: large;
+    font-family: "Athene";  
+}
+
+/* styling rosa backround */
+
+.rosaBackround {
+    background-color: #F4C4C4;
+}
+
+.positionP4 {
+    font-size: small;
+    padding: 60px 0px 50px 70px;
+    
+}
+
+.h1_Release {
+    font-family: "Athene";
+    font-weight: lighter;
+    font-size: 10rem;
+    text-transform: uppercase;
+    max-width: 30vw;
+    word-wrap: break-word;
+}
+
+.welcomeArticle {
+    text-align: right;
+    padding: 10px 40px 20px 0px;
+    line-height: 2rem;
+    font-size: small;
+    color: rgb(106, 92, 92);
+    align-self: flex-end;
+}
+
+/* Table Principles & Values */
+
+.principlesValues {
+    color: rgb(106, 92, 92);
+    text-align: right;
+    padding-top: 35px;
+    border-bottom: 1px solid black;
+    padding-bottom: 0;
+    margin-inline-end: 2vw;
+    margin-inline-start: 64vw;
+    
+}
+
+.integrity {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    color: rgb(106, 92, 92);
+    align-items: center;
+    font-size: larger;
+    border-bottom: 1px solid black;
+    margin-inline-end: 1vw;
+    margin-inline-start: 64vw;
+}
+
+.alwaysWorking {
+    padding:10px 40px 20px 0 ;
+    color: rgb(106, 92, 92);
+}
+
+.understanding {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    color: rgb(106, 92, 92);
+    align-items: center;
+    font-size: larger;
+    border-bottom: 1px solid black;
+    margin-inline-end: 1vw;
+    margin-inline-start: 64vw;
+}
+
+.wellMade {
+    padding:10px 40px 20px 0 ;
+    color: rgb(106, 92, 92);
+}
+
+.performance {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    color: rgb(106, 92, 92);
+    align-items: center;
+    font-size: larger;
+    border-bottom: 1px solid black;
+    margin-inline-end: 1vw;
+    margin-inline-start: 64vw;
+}
+
+.everyMinute {
+    padding:10px 40px 20px 0 ;
+    color: rgb(106, 92, 92);
+}
+
+.logo {
+    max-width: 125px;
+}
+
+.logoPosition {
+    text-align: right;
+    padding: 45px 40px 45px 0px ;
+}
+
+/* styling gold backround */
+.goldBackround {
+    background-color: #DEB873;
+}
+
+.postion_P_GOLD {
+    display: flex;
+    justify-content: end;
+    font-size: small;
+    padding: 80px 120px 50px 0px;
+    color: #7D2222;
+}
+
+.h1_Works {
+    
+    text-align: right;
+    font-family: "Athene";
+    font-weight: lighter;
+    font-size: 10rem;
+    word-wrap: break-word;
+    color: #7D2222;
+
+}
+
+.aboutWorks {
+    color: #7D2222;
+    padding-left: 60px;
+    padding-bottom: 100px;
+    line-height: 2rem;
+}
+
+/* first-img-area */
+.rodrigoMarconatto {
+    color: #7D2222;
+    font-size: 3rem;
+    font-family: "Athene";
+
+}
+
+.womenIMG {
+    width: 650px;
+}
+
+.firsMain_img {
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 0px 200px 200px;
+    margin-inline: 18vw;
+}
+
+/* second-img-area */
+.secondMain_img {
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 200px 200px 100px;
+}
+
+.KaetheKollwitz {
+    color: #7D2222;
+    font-size: 3rem;
+    font-family: "Athene";
+}
+
+.woodWork {
+   width: 650px;
+}
+
+/* third-img-area */
+.thirdMain_img {
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 0px 200px 200px;
+    margin-inline: 17.46vw;
+}
+
+.victorFolio {
+    color: #7D2222;
+    font-size: 3rem;
+    font-family: "Athene";
+}
+
+.modelIMG {
+    width: 650px;
+}
+
+/* fourth-img-area */
+.fourthMain_img {
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 0px 200px 100px;
+}
+
+.snowboardIMG {
+    width: 650px;
+}
+
+.bored_of_Authority {
+    color: #7D2222;
+    font-size: 3rem;
+    font-family: "Athene";
+    padding-right: 300px;
+}
+
+/* Styling gray Backround footer */
+
+.grayBackround {
+    background-color: #D2D2D2;
+}
+
+.pGray {
+    color: #388883;
+    font-size: small;
+    padding: 60px 0px 50px 70px;
+}
+
+.h1Contact {
+    font-family: "Athene";
+    font-weight: lighter;
+    font-size: 10rem;
+    text-transform: uppercase;
+    color: #388883;
+}
+
+.contactText {
+    color: #388883;
+    text-align: center;
+    line-height: 2rem;
+}
+
+.navEnd {
+    display: block;
+    justify-content: end;
+    flex-direction: column;
+    text-align: right;
+    padding: 30px 20px 20px 0;
+    line-height: 2rem;
+}
+
+.navEnd a {
+    display: block;
+    color: #388883;
+    text-decoration: none;
+}
+
+.navEnd a:hover {
+    text-decoration: underline;
+}
